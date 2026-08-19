@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIUF — Genç İstanbullular Ulusal Forumu</title>
+  <meta name="description" content="Genç İstanbullular Ulusal Forumu (GIUF), İstanbul'un genç liderlerini ulusal ölçekte bir araya getiren kurumsal bir gençlik platformudur.">
+  <meta name="keywords" content="GIUF, Genç İstanbullular, Ulusal Forum, gençlik platformu, İstanbul, forum, komite, liderlik, diyalog">
+  <meta name="author" content="Genç İstanbullular Ulusal Forumu">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0A2342">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GIUF — Genç İstanbullular Ulusal Forumu">
+  <meta property="og:description" content="Gençlerin sesini ulusal arenaya taşıyan kurumsal platform.">
+  <meta property="og:image" content="assets/images/hero-bg.jpg">
+  <meta property="og:locale" content="tr_TR">
+
+  <link rel="icon" href="assets/images/logo-emblem.jpg" type="image/jpeg">
+  <link rel="canonical" href="https://giuf.org.tr/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Genç İstanbullular Ulusal Forumu",
+    "alternateName": "GIUF",
+    "url": "https://giuforum.com",
+    "logo": "assets/images/logo-emblem.jpg"
+  }
+  </script>
+</head>
+<body>
+
+<header id="navbar" role="banner">
+  <div class="container nav-container">
+    <a href="#" class="nav-logo" aria-label="GIUF Ana Sayfa">
+      <img src="assets/images/logo-emblem.jpg" alt="GIUF" class="nav-logo-emblem">
+      <div class="nav-logo-text">
+        <span class="nav-logo-abbr">GIUF</span>
+        <span class="nav-logo-full">Genç İstanbullular Ulusal Forumu</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" role="navigation" aria-label="Ana Navigasyon">
+      <div class="nav-group" id="navForum">
+        <div class="nav-group-label" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+          Forum
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="nav-dropdown" role="menu">
+          <a href="#ulusal-forum" role="menuitem"><span class="dd-dot"></span>Ulusal Forum Nedir?</a>
+          <a href="#isleyis" role="menuitem"><span class="dd-dot"></span>İşleyişimiz</a>
+          <a href="#kadromuz" role="menuitem"><span class="dd-dot"></span>Kadromuz</a>
+          </div>
+      </div>
+
+      <a href="#hakkimizda" class="nav-plain">Biz Kimiz?</a>
+      <a href="#ne-yapacagiz" class="nav-plain">Faaliyetler</a>
+      </nav>
+
+    <div class="nav-hamburger" id="hamburger" aria-label="Menüyü Aç/Kapat">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- MOBİL MENÜ -->
+  <div class="nav-mobile" id="mobileNav">
+    <span class="mobile-section-label">Menü</span>
+    <a href="#ulusal-forum">Ulusal Forum Nedir?</a>
+    <a href="#hakkimizda">Biz Kimiz?</a>
+    <a href="#ne-yapacagiz">Faaliyetler</a>
+    <a href="#isleyis">İşleyişimiz</a>
+    <a href="#kadromuz">Kadromuz</a>
+  </div>
+</header>
+
+<main id="main-content">
+
+<section id="hero" aria-label="Ana Sayfa">
+  <div class="hero-bg" role="img" aria-label="İstanbul Boğazı panoraması"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-badge">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          <span>Genç İstanbullular Ulusal Forumu</span>
+        </div>
+        <h1 class="hero-title">
+          Gençlerin <em>Sesi</em>,<br>
+          İstanbul'un <span class="underline-accent">Geleceği</span>
+        </h1>
+        <p class="hero-desc">
+          Genç İstanbullular Ulusal Forumu; kent gençlerini yerel düzeyde bir araya getiren, tartışma kültürünü geliştiren ve gençlerin politika süreçlerine anlamlı biçimde katılımını sağlayan kurumsal bir organizasyondur.
+        </p>
+        <div class="hero-actions">
+          <a href="#ulusal-forum" class="btn btn-outline-light">Forumu Keşfedin</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <button class="hero-scroll-btn" id="scrollDown" aria-label="Aşağı kaydır">
+      <span>Keşfet</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>
+    </button>
+  </div>
+
+  <div class="hero-pillars" aria-label="Kurumsal Değerler">
+    <div class="container">
+      <div class="hero-pillars-inner">
+        <div class="pillar-item">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="pillar-label">Diyalog</div>
+          <div class="pillar-desc">Farklı görüşlerin ortak zeminde buluştuğu güvenli platform</div>
+        </div>
+        <div class="pillar-item">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="pillar-label">Liderlik</div>
+          <div class="pillar-desc">Geleceğin liderlerini bugünden şekillendiren programlar</div>
+        </div>
+        <div class="pillar-item">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="pillar-label">Etki</div>
+          <div class="pillar-desc">Söylemden eyleme, fikirden kalıcı yerel değişime</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HERO SMOOTH GEÇİŞ DALGASI -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none">
+    <path d="M0,28 C360,56 1080,0 1440,28 L1440,56 L0,56 Z" fill="#F4F7FB"/>
+  </svg>
+</div>
+
+
+<!-- =========================================================
+     ULUSAL FORUM NEDİR?
+     ========================================================= -->
+<section id="ulusal-forum" aria-labelledby="uf-heading">
+  <div class="container">
+    <div class="uf-header text-center">
+      <span class="section-tag reveal">Konsept</span>
+      <h2 class="section-title reveal reveal-delay-1" id="uf-heading">Ulusal Forum Nedir?</h2>
+      <p class="section-subtitle reveal reveal-delay-2">
+        Ulusal forum, farklı bölgelerden ve çevrelerden gelen gençlerin yapılandırılmış
+        bir süreç içinde ortak meseleler üzerine düşündüğü, tartıştığı ve ürettiği
+        kurumsal bir diyalog platformudur.
+      </p>
+    </div>
+
+    <div class="uf-grid">
+      <div class="uf-card reveal">
+        <div class="uf-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3>Forum Nedir?</h3>
+        <p>
+          Forum, katılımcıların belirlenmiş gündem maddeleri çerçevesinde
+          yapılandırılmış şekilde tartıştığı, fikir ve önerilerin üretildiği
+          çok sesli bir platform ortamıdır.
+        </p>
+        <ul class="uf-list">
+          <li>Katılımcı ve çoğulcu bir süreç</li>
+          <li>Yapılandırılmış tartışma formatı</li>
+          <li>Belgelenmiş çıktılar ve raporlar</li>
+          <li>Uzlaşı odaklı müzakere</li>
+        </ul>
+      </div>
+
+      <div class="uf-card reveal reveal-delay-1">
+        <div class="uf-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Neden Var?</h3>
+        <p>
+          Gençlerin karar alma mekanizmalarına katılımı, sürdürülebilir bir
+          demokrasi kültürünün temel taşıdır. GIUF, bu katılımı anlamlı
+          ve yapılandırılmış bir zemine taşır.
+        </p>
+        <ul class="uf-list">
+          <li>Gençlerin politika süreçlerine dahil edilmesi</li>
+          <li>Ulusal perspektif oluşturma</li>
+          <li>Sivil toplum kapasitesini güçlendirme</li>
+          <li>Nesiller arası köprü kurma</li>
+        </ul>
+      </div>
+
+      <div class="uf-card reveal reveal-delay-2">
+        <div class="uf-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Nasıl Çalışır?</h3>
+        <p>
+          GIUF forumu; hazırlık, komite çalışmaları, genel oturumlar ve çıktı
+          aşamalarından oluşan sistematik bir yapıya sahiptir. Her katılımcının
+          üstlendiği rol bellidir.
+        </p>
+        <ul class="uf-list">
+          <li>Komite bazlı çalışma grupları</li>
+          <li>Moderatör eşliğinde oturumlar</li>
+          <li>Genel Kurul'da birleşik tartışma</li>
+          <li>Karar metni ve rapor üretimi</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- wave -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="56" style="background:#F4F7FB">
+    <path d="M0,28 C480,0 960,56 1440,14 L1440,56 L0,56 Z" fill="#ffffff"/>
+  </svg>
+</div>
+
+<!-- HAKKIMIZDA (Beyaz Arka Plan) -->
+<section id="hakkimizda">
+  <div class="container">
+    <div class="biz-kimiz-grid">
+      <div class="biz-kimiz-image-wrap reveal">
+        <div class="biz-kimiz-deco"></div>
+        <img src="assets/images/hero-bg.jpg" alt="İstanbul Boğazı" class="biz-kimiz-image-main">
+        <div class="biz-kimiz-badge">
+          <div class="badge-year">İST.</div>
+          <div class="badge-label">İstanbul merkezli<br>ulusal platform</div>
+        </div>
+      </div>
+
+      <div>
+        <span class="section-tag reveal">Kimliğimiz, Misyon & Vizyon</span>
+        <h2 class="section-title reveal reveal-delay-1">Biz <em>Kimiz?</em></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Ulusal forumumuz, zaman geçtikçe genç çalışma arkadaşlarımızın katkılarıyla büyüdü ve büyümeye devam etmektedir. Bu ulusal forum ile temellerini atacağımız değişim inovasyonumuzun üzerine zamanla binalarını inşa edecek ve bir gün kocaman bir şehir olacağız.
+        </p>
+
+        <blockquote class="misyon-quote reveal reveal-delay-2" style="margin: 20px 0;">
+          "Farklı görüşlerin aynı masada buluşabildiği her an, demokrasinin en canlı hali yaşanır."
+        </blockquote>
+
+        <div class="biz-values">
+          <div class="biz-value reveal reveal-delay-3">
+            <div class="biz-value-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <h4>Bağımsızlık & Katılımcılık</h4>
+              <p>Siyasi ve ticari etkilerden bağımsız, her görüşün eşit temsil edildiği yapı.</p>
+            </div>
+          </div>
+          <div class="biz-value reveal reveal-delay-4">
+            <div class="biz-value-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <h4>Etki & Küresel Vizyon</h4>
+              <p>Tartışmadan belgeye, yerel köklerden küresel bağlantılara uzanan sürdürülebilir etki.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     NE YAPACAĞIZ?
+     ========================================================= -->
+<section id="ne-yapacagiz" aria-labelledby="nyp-heading">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-tag reveal">Faaliyetler</span>
+      <h2 class="section-title reveal reveal-delay-1" id="nyp-heading">Ne Yapacağız?</h2>
+      <p class="section-subtitle reveal reveal-delay-2">
+        GIUF çatısı altında hayata geçirilecek programlar, etkinlikler ve projeler.
+      </p>
+    </div>
+
+    <div class="nyp-grid">
+      <article class="nyp-card reveal">
+        <div class="nyp-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Ulusal Forum Oturumları</h3>
+        <p>Yılda bir kez, tüm katılımcıları ve komitenin temsilcilerini bir araya getiren büyük ölçekli ulusal forum toplantıları.</p>
+      </article>
+
+      <article class="nyp-card reveal reveal-delay-2">
+        <div class="nyp-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+        </div>
+        <h3>Kültürel Projeler</h3>
+        <p>İstanbul kimliğini ve gençlik kültürünü öne çıkaran, sivil alana katkı sağlayan kültürel ve sosyal sorumluluk projeleri.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- wave -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="56" style="background:#F4F7FB">
+    <path d="M0,42 C480,0 960,56 1440,14 L1440,56 L0,56 Z" fill="#ffffff"/>
+  </svg>
+</div>
+
+<!-- =========================================================
+     İŞLEYİŞİMİZ
+     ========================================================= -->
+<section id="isleyis" aria-labelledby="isleyis-heading">
+  <div class="container">
+    <div class="isleyis-layout">
+
+      <div class="isleyis-intro">
+        <span class="section-tag reveal">Süreç</span>
+        <h2 class="section-title reveal reveal-delay-1" id="isleyis-heading">
+          Forum Nasıl<br><em>İşler?</em>
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          GIUF forumu, titizlikle tasarlanmış beş aşamalı bir süreçten oluşur.
+          Her aşama, bir sonrakini besler ve bütünlük içinde çalışır.
+        </p>
+      </div>
+
+      <div class="flow-steps reveal reveal-delay-2">
+        <div class="flow-step">
+          <div class="flow-connector">
+            <div class="flow-num" aria-label="Adım 1">1</div>
+          </div>
+          <div class="flow-body">
+            <h3>Hazırlık Süreci</h3>
+            <p>Katılımcılar forum gündemine önceden hazırlanır. Komite konuları, geçmiş kararlar ve ilgili politika metinleri incelenir.</p>
+            <span class="flow-tag">Ön Çalışma</span>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="flow-connector">
+            <div class="flow-num" aria-label="Adım 2">2</div>
+          </div>
+          <div class="flow-body">
+            <h3>Komite Çalışmaları</h3>
+            <p>Katılımcılar kendi komitelerinde toplanır. Gündem maddelerini derinlemesine tartışır, pozisyon geliştirip taslak metinler oluşturur.</p>
+            <span class="flow-tag">Çalışma Grupları</span>
+          </div>
+        </div>
+
+        <div class="flow-step active">
+          <div class="flow-connector">
+            <div class="flow-num" aria-label="Adım 3">3</div>
+          </div>
+          <div class="flow-body">
+            <h3>Forum Oturumları</h3>
+            <p>Komite çalışmaları tüm katılımcıların önünde sunulur. Açık oturumlar ve müzakerelerle fikirler geliştirilir.</p>
+            <span class="flow-tag">Açık Oturumlar</span>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="flow-connector">
+            <div class="flow-num" aria-label="Adım 4">4</div>
+          </div>
+          <div class="flow-body">
+            <h3>Genel Kurul</h3>
+            <p>Tüm komitelerin çıktıları bir araya gelir. Nihai kararlar oylanır, uzlaşı belgeleri hazırlanır.</p>
+            <span class="flow-tag">Karar Aşaması</span>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="flow-connector">
+            <div class="flow-num" aria-label="Adım 5">5</div>
+          </div>
+          <div class="flow-body">
+            <h3>Çıktılar ve Raporlama</h3>
+            <p>Forum kararları derlenerek resmi raporlar hazırlanır. Bu raporlar kamuoyuyla ve ilgili aktörlerle paylaşılır.</p>
+            <span class="flow-tag">Yayınlama</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- wave -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="56">
+    <path d="M0,14 C360,56 1080,0 1440,42 L1440,56 L0,56 Z" fill="#0A2342"/>
+  </svg>
+</div>
+
+<!-- GİZLENDİ: MODLAR BELİRLENDİĞİNDE AÇILACAK
+<!-- =========================================================
+     ROLLER
+     ========================================================= -->
+<section id="roller" aria-labelledby="roller-heading">
+  <div class="container">
+    <div class="roller-header text-center">
+      <span class="section-tag light reveal">Katılım Modeli</span>
+      <h2 class="section-title on-dark reveal reveal-delay-1" id="roller-heading">Komitelerimiz</h2>
+      <p class="section-subtitle on-dark reveal reveal-delay-2">
+        GIUF'ta 2 adet Mod bulunmaktadır.
+      </p>
+    </div>
+
+    <div class="roller-grid">
+
+      <article class="rol-card rol-card-savunucu reveal reveal-delay-1">
+        <div class="rol-emblem" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="rol-card-name">Mod 1</div>
+        <div class="rol-card-sub">---</div>
+        <div class="rol-divider"></div>
+        <p>
+          EKLENECEK
+        </p>
+        <div class="rol-tags">
+          <span class="rol-tag">EKLENECEK</span>
+          <span class="rol-tag">EKLENECEK</span>
+          <span class="rol-tag">EKLENECEK</span>
+        </div>
+      </article>
+
+      <article class="rol-card rol-card-savunucu reveal reveal-delay-1">
+        <div class="rol-emblem" aria-hidden="true">
+          <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="rol-card-name">Mod 2</div>
+        <div class="rol-card-sub">---</div>
+        <div class="rol-divider"></div>
+        <p>
+          EKLENECEK
+        </p>
+        <div class="rol-tags">
+          <span class="rol-tag">EKLENECEK</span>
+          <span class="rol-tag">EKLENECEK</span>
+          <span class="rol-tag">EKLENECEK</span>
+        </div>
+      </article>
+
+
+    </div>
+  </div>
+</section>
+-->
+
+<!-- wave -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="56" style="background:#0A2342">
+    <path d="M0,28 C360,0 1080,56 1440,14 L1440,56 L0,56 Z" fill="#ffffff"/>
+  </svg>
+</div>
+
+<!-- KADROMUZ (Beyaz Arka Plan) -->
+<section id="kadromuz" aria-labelledby="kadro-heading">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-title reveal reveal-delay-1" id="kadro-heading">Kadromuz</h2>
+      <p class="section-subtitle reveal reveal-delay-2">
+        GIUF'u hayata geçiren yönetim kadrosu ve ekip yapısı.
+        ÇOK YAKINDA.
+      </p>
+    </div>
+
+    <div class="kadro-grid">
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Genel Koordinatör</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-2" aria-hidden="true"></div>
+        <div class="kadro-position">Genel Koordinatör</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 1</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 2</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 3</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 4</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 5</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 6</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 7</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 8</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 9</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 10</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 11</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 12</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 13</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 14</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+      <div class="kadro-card reveal">
+        <div class="kadro-avatar av-1" aria-hidden="true"></div>
+        <div class="kadro-position">Başkan 15</div>
+        <div class="kadro-dept">GÜNCELLENECEK</div>
+        <span class="kadro-placeholder-badge">Duyurulacak</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GİZLENDİ: MEKAN BELİRLENDİĞİNDE AÇILACAK
+<!-- KOYU TARİHİMİZ BÖLÜMÜNDEN KREM MEKANIMIZ BÖLÜMÜNE GEÇİŞ DALGASI -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none">
+    <path d="M0,42 C480,0 960,56 1440,14 L1440,56 L0,56 Z" fill="#F4F7FB"/>
+  </svg>
+</div>
+
+<!-- MEKANIMIZ (Krem Arka Plan) -->
+<section id="mekan" aria-labelledby="mekan-heading">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:8px">
+      <span class="section-tag reveal">Mekân</span>
+      <h2 class="section-title reveal reveal-delay-1" id="mekan-heading">Mekanımız</h2>
+    </div>
+
+    <div class="mekan-layout">
+      <div class="mekan-gallery reveal">
+        <div class="mekan-img-placeholder large" role="img" aria-label="Mekân fotoğrafı">
+          <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <p class="placeholder-text">yakında</p>
+        </div>
+        <div class="mekan-img-placeholder small" role="img" aria-label="Mekân detay 1">
+          <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <p class="placeholder-text">yakında</p>
+        </div>
+        <div class="mekan-img-placeholder small" role="img" aria-label="Mekân detay 2">
+          <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <p class="placeholder-text">yakında</p>
+        </div>
+      </div>
+
+      <div class="mekan-info reveal reveal-delay-2">
+        <span class="section-tag">Forum Alanı</span>
+        <h3 class="section-title" style="font-size:1.6rem; margin-bottom:12px">[YAKINDA]</h3>
+        <p class="section-subtitle">
+          GIUF ulusal forumları, İstanbul'un kültürel ve kurumsal dokusunu yansıtan özel mekânlarda düzenlenmektedir.
+        </p>
+
+        <div class="mekan-features">
+          <div class="mekan-feature">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>İstanbul, Türkiye</span>
+          </div>
+          <div class="mekan-feature">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Forum tarihi resmi kanallardan duyurulacak</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- MEKAN BÖLÜMÜNDEN KOYU FOOTER'A GEÇİŞ DALGASI -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none">
+    <path d="M0,14 C360,56 1080,0 1440,28 L1440,56 L0,56 Z" fill="#0A2342"/>
+  </svg>
+</div>
+
+</main>
+
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/images/logo-emblem.jpg" alt="GIUF">
+          <div>
+            <div class="footer-logo-abbr">GIUF</div>
+            <div class="footer-logo-full">Genç İstanbullular Ulusal Forumu</div>
+          </div>
+        </div>
+        <p>
+          İstanbul'un genç liderlerini ulusal ölçekte bir araya getiren kurumsal platform.
+        </p>
+        <div class="footer-social" aria-label="Sosyal Medya">
+          <a href="https://www.instagram.com/giuforum/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Forum</h5>
+        <ul>
+          <li><a href="#ulusal-forum">Ulusal Forum Nedir?</a></li>
+          <li><a href="#isleyis">İşleyişimiz</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Hakkımızda</h5>
+        <ul>
+          <li><a href="#hakkimizda">Biz Kimiz?</a></li>
+          <li><a href="#kadromuz">Kadromuz</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <ul>
+          <li><a href="#ne-yapacagiz">Ne Yapacağız?</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="footer-sponsor-bar">
+      <div class="sponsor-group">
+        <span class="sponsor-label">Supported by</span>
+        <div class="vertex-brand">
+            <a href="https://vertexishere.com/tr/" target="_blank">
+                <img src="assets/images/vertex-logo.svg" alt="Vertex" class="vertex-logo">
+                <span class="vertex-name">Vertex</span>
+            </a>
+        </div>
+      </div>
+
+      <div class="footer-credit">
+        Website designed and developed by<br>
+        <a href="https://www.instagram.com/yasarefeyucel/">Yaşar Efe Yücel</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Genç İstanbullular Ulusal Forumu (GIUF). Tüm hakları saklıdır.</p>
+      <p>Bağımsız sivil toplum platformu · İstanbul, Türkiye</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
